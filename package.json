@@ -1,0 +1,19 @@
+{
+    "name": "streamhub-hottest-collections",
+    "description": "An example hottest collections project",
+    "author": "Livefyre <support@livefyre.com>",
+    "contributors": {
+        "name":"Derek Chinn",
+        "email":"derek@livefyre.com"
+    },
+    "version": "0.0.0",
+    "devDependencies": {
+        "bower": "*",
+        "http-server": "*"
+    },
+    "scripts":{
+        "clean": "(npm cache clean && ./node_modules/bower/bin/bower cache clean)",
+        "postinstall": "./node_modules/bower/bin/bower install",
+        "start": "./node_modules/http-server/bin/http-server ."
+    }
+}
